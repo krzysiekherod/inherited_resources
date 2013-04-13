@@ -2,6 +2,6 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'rails', '~> 4.0'
+gem 'rails', github: 'krzysiekherod/rails'
 gem 'mocha'
 gem 'turn'

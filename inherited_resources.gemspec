@@ -19,6 +19,5 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency("responders", "~> 0.9")
   s.add_dependency("has_scope",  "~> 0.5.0")
 end
